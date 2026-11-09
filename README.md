@@ -58,8 +58,6 @@ Below is the logical structure of the environment implemented for Reto 4:
 └───────────────────┘ └───────────────────┘              └───────────────────┘ └───────────────────┘
 ```
 
-> **Nota visual:** El diagrama detallado en formato imagen se encuentra disponible en la carpeta [`/diagramas/mapa_red.png`](./diagramas/).
-
 ---
 
 ## 📁 Estructura del Repositorio
