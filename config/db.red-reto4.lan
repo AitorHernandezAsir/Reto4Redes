@@ -1,0 +1,35 @@
+$TTL    86400
+@   IN  SOA server1-gX.red-reto4.lan. admin.red-reto4.lan. (
+                2026110403 ; Serial 
+                3600       ; Refresh
+                1800       ; Retry
+                604800     ; Expire
+                86400 )    ; Minimum TTL
+
+; Servidores de Nombres (NS)
+@   IN  NS  server1-gX.red-reto4.lan.
+@   IN  NS  server2-gX.red-reto4.lan.
+
+; Registros A (Todos los equipos)
+server1-gX  IN  A   192.168.2.101
+server2-gX  IN  A   192.168.2.102
+server3-gX  IN  A   192.168.2.103
+server4-gX  IN  A   192.168.2.104
+pfSense     IN  A   192.168.2.1
+PCW1        IN  A   172.26.44.1
+PCW2	    IN  A   172.26.44.2
+PCW3	    IN  A   172.26.44.3
+PCW4	    IN  A   172.26.44.5
+PCW5	    IN  A   172.26.44.6
+
+; Registros CNAME (Solicitados)
+dns1        IN  CNAME   server1-gX
+dns2        IN  CNAME   server2-gX
+web         IN  CNAME   server3-gX
+pruebas     IN  CNAME   server4-gX
+PCaitor	    IN  CNAME   PCW1
+PCgari	    IN  CNAME   PCW2
+PCantonio   IN  CNAME   PCW3
+PCserrato   IN  CNAME   PCW4
+PCendika    IN  CNAME   PCW5
+

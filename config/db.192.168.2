@@ -1,0 +1,19 @@
+$TTL    86400
+@   IN  SOA server1-gX.red-reto4.lan. admin.red-reto4.lan. (
+                2026110403 ; Serial
+                3600       ; Refresh
+                1800       ; Retry
+                604800     ; Expire
+                86400 )    ; Minimum TTL
+
+; Servidores de Nombres
+@   IN  NS  server1-gX.red-reto4.lan.
+@   IN  NS  server2-gX.red-reto4.lan.
+
+; Registros PTR (Último octeto de la IP apuntando al FQDN)
+101  IN  PTR server1-gX.red-reto4.lan.
+102  IN  PTR server2-gX.red-reto4.lan.
+103  IN  PTR server3-gX.red-reto4.lan.
+104  IN  PTR server4-gX.red-reto4.lan.
+1  IN  PTR pfSense.red-reto4.lan.
+
