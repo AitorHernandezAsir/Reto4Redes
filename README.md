@@ -68,7 +68,6 @@ Below is the logical structure of the environment implemented for Reto 4:
 ├── gestion.md              # Organización de tareas y reparto entre colaboradores
 ├── .gitignore              # Filtro de seguridad (excluye claves privadas y datos sensibles)
 ├── informe/                # Memoria técnica completa en formato Markdown y capturas
-│   └── informe_redes_reto4.md
 ├── config/                 # Ficheros de configuración originales del sistema
 │   ├── netplan/            # Configuraciones YAML de red
 │   ├── bind/               # Zonas directas e inversas de BIND9
