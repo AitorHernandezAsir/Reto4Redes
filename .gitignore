@@ -1,0 +1,14 @@
+# Claves privadas SSH (excluye cualquier archivo que empiece por "clave_")
+clave_*
+
+# Ficheros de claves genéricos por seguridad
+*.pem
+*.key
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+*~
+
+# Logs o temporales de configuración
+*.log
