@@ -32,7 +32,7 @@ El objetivo principal de este proyecto es desplegar una red interna segmentada q
 
 ## 🗺️ Mapa Lógico de la Red
 
-Below is the logical structure of the environment implemented for Reto 4:
+Abajo se encuentra la estructura lógica implementada para el proyecto de redes del reto 4:
 
 ```text
                                   [ RED DEL CENTRO / WAN ]
